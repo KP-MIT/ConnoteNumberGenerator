@@ -9,9 +9,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -58,7 +55,7 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    run as java application.
    ```
-3. Or Download this JAR and in console/command prompt type.
+3. Or Download the JAR in `/images` folder above and in console/command prompt type.
    ```sh
    java -jar ConnoteNumberGenerator.JAR
    ```
