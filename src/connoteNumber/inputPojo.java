@@ -2,6 +2,7 @@ package connoteNumber;
 
 public class inputPojo {
 	
+	// POJO Class with input fields and their getters and setters.
 	private String carrierName;
 	private String accNum;
 	private Integer digits;
@@ -10,7 +11,7 @@ public class inputPojo {
 	private Integer end;
 	
 	public inputPojo(String name, String acc, Integer dig, Integer lastInd, Integer start, Integer end) {
-		
+		// Assign initial values in constructor.
 		this.carrierName = name;
 		this.accNum = acc;
 		this.digits = dig;
@@ -19,6 +20,7 @@ public class inputPojo {
 		this.end = end;
 	}
 	
+	// Check if incremented index is in permissible range.
 	public boolean isValid(Integer currentInd, Integer start, Integer end) {
 		if (start <= currentInd && currentInd <= end) return true;
 		else return false;
@@ -63,6 +65,7 @@ public class inputPojo {
 		this.end = end;
 	}
 
+	// format input fields as string. 
 	@Override
 	public String toString() {
 		return "Input: [carrierName=" + carrierName + ", accountNumber=" + accNum + ", digits=" + digits + ", lastUsedIndex="
