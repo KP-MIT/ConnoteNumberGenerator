@@ -44,6 +44,7 @@ public class numGenerator {
 		}
 		
 		System.out.println("\nOutput: "+connoteNum);
+		input.setLastInd(currentInd);
 		
 	}
 
