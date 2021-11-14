@@ -38,13 +38,14 @@ public class numGenerator {
 			// calculate checksum
 			Integer checksum = 100 - (evenPosSum*3 + oddPosSum*7);
 			connoteNum += checksum.toString();
+			input.setLastInd(currentInd);
 			
 		} else {
 			connoteNum = "Invalid Index!";
 		}
 		
 		System.out.println("\nOutput: "+connoteNum);
-		input.setLastInd(currentInd);
+		
 		
 	}
 
